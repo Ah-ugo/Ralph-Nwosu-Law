@@ -8,14 +8,14 @@ export function Footer() {
       <div className='container px-4'>
         <div className='flex flex-col items-center gap-6 text-center'>
           <div className='flex flex-col items-center'>
-            <div className='relative h-12 w-24 md:h-16 md:w-32 mb-3'>
+            <div className='relative h-16 w-24 md:h-18 lg:h-20 md:w-32 mb-3'>
               <Image
                 src='/images/ralph-nwosu-logo.png'
                 alt='Ralph Nwosu & Co Logo'
                 fill
                 loading='lazy'
                 sizes='(max-width: 768px) 96px, 128px'
-                className='object-contain'
+                className='object-cover h-full w-full'
               />
             </div>
             <span className='text-xl font-playfair font-medium tracking-wider text-navy'>

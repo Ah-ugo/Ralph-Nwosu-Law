@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Premier Legal Services | Ralph Nwosu & Co Law Firm',
     description:
       'Experience exceptional legal representation with Sterling & Associates. Expert lawyers providing personalized legal solutions across multiple practice areas.',
-    url: 'https://sterlingassociates.com',
+    url: 'https://ralphnwosulaw.netlify.app',
     siteName: 'Ralph Nwosu & Co',
     images: [
       {
@@ -58,7 +58,7 @@ export default function Home() {
             name: 'Ralph Nwosu & Co',
             description:
               'Experience exceptional legal representation with Ralph Nwosu & Co. Expert lawyers providing personalized legal solutions across corporate law, personal injury, family law, and estate planning.',
-            url: 'https://sterlingassociates.com',
+            url: 'https://ralphnwosulaw.netlify.app',
             address: {
               '@type': 'PostalAddress',
               addressLocality: 'Downtown',

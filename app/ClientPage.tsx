@@ -138,14 +138,14 @@ export default function ClientPage() {
             className='flex items-center gap-2 md:gap-3 hover:opacity-80 transition-opacity duration-300'
             aria-label='Ralph Nwosu & Co - Premier Legal Services'
           >
-            <div className='relative h-6 w-12 md:h-8 md:w-16 lg:h-10 lg:w-20'>
+            <div className='relative h-16 w-12 md:h-18 md:w-16 lg:h-20 lg:w-20'>
               <Image
                 src='/images/ralph-nwosu-logo.png'
                 alt='Ralph Nwosu & Co Logo'
                 fill
                 priority
                 sizes='(max-width: 768px) 48px, (max-width: 1024px) 64px, 80px'
-                className='object-contain'
+                className='object-cover'
               />
             </div>
             <span className='text-base md:text-lg lg:text-xl font-playfair font-medium tracking-wider'>
@@ -1202,14 +1202,14 @@ export default function ClientPage() {
         <div className='container px-4'>
           <div className='flex flex-col items-center gap-6 text-center'>
             <div className='flex flex-col items-center'>
-              <div className='relative h-12 w-24 md:h-16 md:w-32 mb-3'>
+              <div className='relative h-16 w-24 md:h-18 lg:h-20 md:w-32 mb-3'>
                 <Image
-                  src='/images/sterling-logo.png'
+                  src='/images/ralph-nwosu-logo.png'
                   alt='Ralph Nwosu & Co Logo'
                   fill
                   loading='lazy'
                   sizes='(max-width: 768px) 96px, 128px'
-                  className='object-contain'
+                  className='object-cover h-full w-full'
                 />
               </div>
               <span className='text-xl font-playfair font-medium tracking-wider text-navy'>
